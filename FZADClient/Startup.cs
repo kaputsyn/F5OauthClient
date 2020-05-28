@@ -23,13 +23,14 @@ namespace FZADClient
                 config.DefaultChallengeScheme = "OurServer";
             })
                 .AddCookie("ClientCookie")
-                .AddOAuth("OurServer", config =>
+                .AddOpenIdConnect("OurServer", config =>
                 {
+                    config.Scope.Add("openid");
                     config.CallbackPath = "/callback";
-                    config.ClientId = "eaba049788f44f627cd56e85f4d50094a127f402bfa56b5e";
-                    config.ClientSecret = "9ba393df7ff074c1fb2976d631b9a5602171af6ccda20094a127f402bfa56b5e";
-                    config.AuthorizationEndpoint = "https://oauth-f5.fozzy.ua/f5-oauth2/v1/authorize";
-                    config.TokenEndpoint = "https://oauth-f5.fozzy.ua/f5-oauth2/v1/token";
+                    config.ClientId = "f2bded84ec96e658296d29a6fd110094a127f4025cc99e5e";
+                    config.ClientSecret = "72ea78fcb5d4791950f169fcdf648994a0a9eac760fd0094a127f4025cc99e5e";
+                    config.Authority = "https://oidoauth.fozzy.ua/f5-oauth2/v1/";
+                    config.ResponseType = "code";
 
                     config.SaveTokens = true;
                 });

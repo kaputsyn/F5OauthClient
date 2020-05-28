@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adminn\\source\\repos\\FZADClient\\FZADClient\\FZADClient.csproj": {}
+    "C:\\Users\\adminn\\Documents\\GitHub\\F5OauthClient\\FZADClient\\FZADClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adminn\\source\\repos\\FZADClient\\FZADClient\\FZADClient.csproj": {
+    "C:\\Users\\adminn\\Documents\\GitHub\\F5OauthClient\\FZADClient\\FZADClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adminn\\source\\repos\\FZADClient\\FZADClient\\FZADClient.csproj",
+        "projectUniqueName": "C:\\Users\\adminn\\Documents\\GitHub\\F5OauthClient\\FZADClient\\FZADClient.csproj",
         "projectName": "FZADClient",
-        "projectPath": "C:\\Users\\adminn\\source\\repos\\FZADClient\\FZADClient\\FZADClient.csproj",
+        "projectPath": "C:\\Users\\adminn\\Documents\\GitHub\\F5OauthClient\\FZADClient\\FZADClient.csproj",
         "packagesPath": "C:\\Users\\adminn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adminn\\source\\repos\\FZADClient\\FZADClient\\obj\\",
+        "outputPath": "C:\\Users\\adminn\\Documents\\GitHub\\F5OauthClient\\FZADClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adminn\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,10 @@
             "Microsoft.AspNetCore.Authentication.OAuth": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             }
           },
           "imports": [
